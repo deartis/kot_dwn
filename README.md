@@ -1,8 +1,8 @@
-# King of Territory — Downloads
+# K.O.T — Downloads
 
 APKs para testar o aplicativo Android.
 
-[Baixar v0.1.0](https://github.com/deartis/kot_dwn/releases/download/v0.1.0/king-of-territory-v0.1.0.apk)
+[Baixar K.O.T v0.1.0 — build 2](https://github.com/deartis/kot_dwn/releases/download/v0.1.0/kot-v0.1.0-build2.apk)
 
 Android 7.0 ou superior. Após baixar, abra o APK e permita a instalação pelo navegador quando o Android solicitar.
 
