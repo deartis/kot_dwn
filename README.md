@@ -6,7 +6,7 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[Baixar para Android — v0.1.0, build 4](https://github.com/deartis/kot_dwn/releases/download/v0.1.0/kot-v0.1.0-build4.apk)**
+**[Baixar para Android — v0.1.0, build 12](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build12/kot-v0.1.0-build12.apk)**
 
 Requer **Android 7.0 ou superior**. Esta é uma versão de testes, em desenvolvimento.
 
