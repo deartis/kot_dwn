@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.0, build 29](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build29/kot-v0.1.0-build29.apk)**
+**[🚀 Baixar para Android — v0.1.0, build 35](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build35/kot-v0.1.0-build35.apk)**
 
-- **Tamanho:** `79.545.868 bytes` (~75,8 MB)
-- **SHA-256:** `8c6381974ec4fed866c88b2954895935b0e251a4b5118e206ba228cfcdaf6f17`
-- **Checksum:** [SHA256SUMS-build29.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build29/SHA256SUMS-build29.txt)
+- **Tamanho:** `112.404.762 bytes` (~107,2 MB)
+- **SHA-256:** `927c20905273b6632af8b01c82754092eec75d6b66cc97e40d1d5b2c18954fed`
+- **Checksum:** [SHA256SUMS-build35.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build35/SHA256SUMS-build35.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -22,19 +22,23 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ---
 
-## Novidades da Build 29
+## Novidades da Build 35
 
-- **🛡️ Estabilidade Cívica do Reino:**
-  - O escudo do reino agora depende da assiduidade e honraria de todos os cidadãos do reino.
-  - Cidadãos que treinam com frequência mantêm a honraria em dia (100% estável).
-  - Cidadãos inativos há mais de 3 dias entram em falta de honraria, diminuem a estabilidade da guarda e aceleram o decaimento do escudo do reino (14%/dia vs 7%/dia).
-  - Nova barra de progresso visual de "Estabilidade da Guarda" e contagem clara de cidadãos em falta.
-- **📯 Convocação Real do Soberano (Exclusivo do Rei):**
-  - Painel de honraria na aba Reinado com lista de cidadãos e dias de inatividade.
-  - Botão mestre **"CONVOCAR TODA A GUARDA EM FALTA"** permitindo ao Rei enviar decreto convocatório para todos os ausentes com um único toque.
-  - Botão de convocação individual por cidadão com diálogo de confirmação real e controle anti-spam de 24h.
-- **☁️ Sincronização com a API na VPS:**
-  - Endpoints de estabilidade cívica e convocação implantados na VPS.
+- **⚔️ Forja de Espadas & Armas (Ferraria do Vilarejo):**
+  - Sistema completo de forja de espadas por tiers: Espada Curta de Ferro, Espada Forjada e Montante do Campeão.
+  - Animação da bigorna e gasto de barras de ferro e tábuas refinadas.
+  - Abas da oficina renomeadas de forma intuitiva ("Forja de Espadas & Armas" e "Entalhes em Madeira").
+- **🧪 Loja de Poções & Prateleira do Alquimista:**
+  - Compra de poções de Sabedoria, Vigor e Rastreador direto na Loja de Poções construída no vilarejo.
+  - Pagamento em Moedas de Ouro com tributo comercial de 20% destinado ao Tesouro Real.
+  - Exibição em tempo real da quantidade atual na mochila do atleta.
+- **💎 Sistema de Joias e Engastes (Módulo 4):**
+  - Engastes em equipamentos com bônus acumulativos e balanceamento de raridade de joias místicas.
+- **🏛️ Vilarejo e Construções do Rei:**
+  - Lojas de Poções e Proteínas integradas à expansão do vilarejo.
+  - Estruturas concluídas são filtradas automaticamente do menu de novas obras do Rei.
+- **⚡ Sincronização com VPS:**
+  - Endpoints de compra de poções e forja implantados e ativos na VPS.
 
 ---
 
@@ -42,4 +46,4 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 - O aplicativo está em fase inicial de testes.
 - Se encontrar algum problema ou tiver sugestões, compartilhe pelo canal de testes.
-- Versão: **0.1.0 (build 29)**.
+- Versão: **0.1.0 (build 35)**.
