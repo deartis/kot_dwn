@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.0, build 39](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build39/kot-v0.1.0-build39.apk)**
+**[🚀 Baixar para Android — v0.1.0, build 41](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build41/kot-v0.1.0-build41.apk)**
 
-- **Tamanho:** `117.231.731 bytes` (~111,8 MB)
-- **SHA-256:** `3fc24c331a76610b8beb35a82f32b613de4d642e2471f2cbfb5975e573096d9f`
-- **Checksum:** [SHA256SUMS-build39.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build39/SHA256SUMS-build39.txt)
+- **Tamanho:** `119.055.481 bytes` (~113,5 MB)
+- **SHA-256:** `21f0503ea24d9aae085a97f84454fec7cd356fe4d1517e7d4527cf6c1dca9b8d`
+- **Checksum:** [SHA256SUMS-build41.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build41/SHA256SUMS-build41.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -22,15 +22,13 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ---
 
-## Novidades da Build 39
+## Novidades da Build 41
 
-- **🧪 Poções de Treinamento na Loja de Poções (Alquimia Real):**
-  - Removido o banner fixo de poções da tela inicial (Home): agora na Home só aparece a barra de contagem regressiva quando o atleta já estiver com um elixir ativo durante a jornada.
-  - As 3 Poções de Treinamento (**Elixir da Sabedoria +50% XP**, **Poção de Vigor Rápido** e **Infusão do Rastreador 2x Drops**) agora são adquiridas exclusivamente na **Loja de Poções do Vilarejo** por Gold (`100g`, `75g` e `80g`, com 20% de imposto para o Tesouro do Reino).
-  - Cards ilustrados na Loja de Poções com botão direto para **Comprar** e **🧪 Beber / Ativar** (também disponível na Mochila).
-  - Novos inventários iniciam com `0` poções gratuitas para valorizar a economia e o Gold do Reino.
-- **🎒 Grade Visual do Arsenal & Baú de Peças:**
-  - Grade interativa nos Aposentos do Herói com filtros por slot, avatar real do guerreiro no centro dos 6 slots e atalhos rápidos.
+- **🏪 Loja do Reino & Venda Fora do Reino Leal (50% vs 20%):**
+  - **Feira Real do Seu Reino Leal (`20%` ao Tesouro / `80%` ao Atleta):** cidadãos leais vendendo no seu próprio Reino com Tenda do Mercador ativa recebem 80% do Gold na carteira e destinam 20% ao Tesouro do Reino.
+  - **Loja do Reino / Venda Fora do Reino (`50%` ao Tesouro / `50%` ao Atleta):** disponível diretamente na **Sede do Reino** (ativa em qualquer reino desde o início), em reinos estrangeiros visitados e na venda rápida da Mochila fora do Reino Leal. Você recebe 50% do Gold e os outros 50% fortalecem o Tesouro do Reino.
+- **🎒 Mochila em Grade (4x4 → até 32 Slots), Pele Animal & Curtume Real:**
+  - Grade de 4 colunas expansível de 16 até 32 slots (+4 por costura), coleta de Pele Animal Bruta nas trilhas e Curtume Real (`2x Pele + 5 Gold → 1x Couro Curtido`).
 
 ---
 
@@ -38,4 +36,4 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 - O aplicativo está em fase inicial de testes.
 - Se encontrar algum problema ou tiver sugestões, compartilhe pelo canal de testes.
-- Versão: **0.1.0 (build 39)**.
+- Versão: **0.1.0 (build 41)**.
