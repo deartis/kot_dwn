@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.0, build 38](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build38/kot-v0.1.0-build38.apk)**
+**[🚀 Baixar para Android — v0.1.0, build 39](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build39/kot-v0.1.0-build39.apk)**
 
 - **Tamanho:** `117.231.731 bytes` (~111,8 MB)
-- **SHA-256:** `a342027449f388ec726023688d004d24be2d19e543dbfc714e8e522f169e30c1`
-- **Checksum:** [SHA256SUMS-build38.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build38/SHA256SUMS-build38.txt)
+- **SHA-256:** `3fc24c331a76610b8beb35a82f32b613de4d642e2471f2cbfb5975e573096d9f`
+- **Checksum:** [SHA256SUMS-build39.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build39/SHA256SUMS-build39.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -22,21 +22,15 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ---
 
-## Novidades da Build 38
+## Novidades da Build 39
 
+- **🧪 Poções de Treinamento na Loja de Poções (Alquimia Real):**
+  - Removido o banner fixo de poções da tela inicial (Home): agora na Home só aparece a barra de contagem regressiva quando o atleta já estiver com um elixir ativo durante a jornada.
+  - As 3 Poções de Treinamento (**Elixir da Sabedoria +50% XP**, **Poção de Vigor Rápido** e **Infusão do Rastreador 2x Drops**) agora são adquiridas exclusivamente na **Loja de Poções do Vilarejo** por Gold (`100g`, `75g` e `80g`, com 20% de imposto para o Tesouro do Reino).
+  - Cards ilustrados na Loja de Poções com botão direto para **Comprar** e **🧪 Beber / Ativar** (também disponível na Mochila).
+  - Novos inventários iniciam com `0` poções gratuitas para valorizar a economia e o Gold do Reino.
 - **🎒 Grade Visual do Arsenal & Baú de Peças:**
-  - Nova grade interativa nos Aposentos do Herói exibindo todos os equipamentos forjados na reserva do atleta.
-  - Filtros rápidos por slot (Todos, Cabeça, Arma, Peitoral, Amuleto, Mochila, Botas).
-  - Cards ilustrados com molduras na cor da raridade, selo `USO` para itens equipados, badge de nível e pips de joias engastadas.
-  - Toque no item abre modal detalhado de atributos, engastes, equipar/desequipar e atalho direto ao Altar de Joias.
-- **👤 Avatar do Guerreiro no Palco dos Slots:**
-  - O centro dos 6 slots táticos agora exibe o avatar real do atleta emoldurado por aura dourada reluzente e selo de nível.
-- **⚡ Atalhos Rápidos ao Arsenal:**
-  - Botão de atalho na AppBar da Mochila (`inventory_screen`) com ícone de escudo dourado e banner temático no topo da lista.
-  - Opção rápida **"Aposentos & Arsenal"** adicionada ao menu flutuante (FAB) da tela principal.
-- **🛡️ Progressão por Tiers e Travas de Nível:**
-  - Equipamentos divididos em Tier 1 Iniciante (Nv. 1-9), Tier 2 Guardião (Nv. 10-24) e Tier 3 Campeão (Nv. 25+).
-  - Trava visual na Forja e economia rebalanceada com valorização de Gold e joias místicas raras.
+  - Grade interativa nos Aposentos do Herói com filtros por slot, avatar real do guerreiro no centro dos 6 slots e atalhos rápidos.
 
 ---
 
@@ -44,4 +38,4 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 - O aplicativo está em fase inicial de testes.
 - Se encontrar algum problema ou tiver sugestões, compartilhe pelo canal de testes.
-- Versão: **0.1.0 (build 38)**.
+- Versão: **0.1.0 (build 39)**.
