@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.0, build 43](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build43/kot-v0.1.0-build43.apk)**
+**[🚀 Baixar para Android — v0.1.0, build 44](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build44/kot-v0.1.0-build44.apk)**
 
-- **Tamanho:** `120.017.393 bytes` (~114,5 MB)
-- **SHA-256:** `2804c0d2515503bafc3fc30a4145382327101d1f702340615f81986153522874`
-- **Checksum:** [SHA256SUMS-build43.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build43/SHA256SUMS-build43.txt)
+- **Tamanho:** `120.116.025 bytes` (~114,6 MB)
+- **SHA-256:** `eb9af5a9bbf8ebbed15038e95e78c177641b5cf9220da0f2cc982bcca01f34a8`
+- **Checksum:** [SHA256SUMS-build44.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build44/SHA256SUMS-build44.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -19,6 +19,21 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da Build 44
+
+- **✨ Acessibilidade & Legibilidade Global (P0):**
+  - Textos e badges de status ampliados para no mínimo 11–12 px em toda a interface (Diálogos de Forja, Joias, Vitória de Treino, HUD de Poções e Jornada), suportando fontes ampliadas do sistema sem cortes.
+  - Áreas de toque aumentadas para 48×48 dp nos controles táteis do mapa na Arena com suporte a leitores de tela (`Semantics`).
+  - Tratamento de erros silenciosos na Carteira, Perfil e Sensores de Localização com alertas visuais.
+- **🎨 Carteira & Economia com Tema Dark Fantasy:**
+  - Reformulação visual da Carteira com a identidade *Dark Fantasy Tactile Modernism* ([AppColors](file:///home/jalvivi/Projects/king_of_territory/app_sport/lib/core/app_colors.dart) e `Cinzel`).
+  - Indicador de progresso tático de metros acumulados para a próxima carga de energia (fração de 500 m) e histórico estilizado com badges de débito/crédito.
+- **🛡️ Navegação e Diálogos Responsivos:**
+  - Navegação inferior blindada contra travamentos de pilha ao alternar abas.
+  - Diálogos de Forja, Extração de Ouro e Upgrade protegidos com rolagem adaptativa e limites de altura elásticos contra transbordamentos (*RenderFlex overflow*).
 
 ---
 
@@ -46,4 +61,4 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 - O aplicativo está em fase inicial de testes.
 - Se encontrar algum problema ou tiver sugestões, compartilhe pelo canal de testes.
-- Versão: **0.1.0 (build 43)**.
+- Versão: **0.1.0 (build 44)**.
