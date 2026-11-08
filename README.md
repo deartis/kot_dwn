@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.0, build 42](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build42/kot-v0.1.0-build42.apk)**
+**[🚀 Baixar para Android — v0.1.0, build 43](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build43/kot-v0.1.0-build43.apk)**
 
-- **Tamanho:** `119.935.369 bytes` (~114,4 MB)
-- **SHA-256:** `98ef70f54806ee3890f8537fd151d8824c150c18e69b56f764f94d38cbb8d323`
-- **Checksum:** [SHA256SUMS-build42.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build42/SHA256SUMS-build42.txt)
+- **Tamanho:** `120.017.393 bytes` (~114,5 MB)
+- **SHA-256:** `2804c0d2515503bafc3fc30a4145382327101d1f702340615f81986153522874`
+- **Checksum:** [SHA256SUMS-build43.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build43/SHA256SUMS-build43.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -22,17 +22,23 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ---
 
+## Novidades da Build 43
+
+- **💰 Venda de Equipamentos Usados e Sobressalentes por 50% do Valor Real:**
+  - Agora você pode vender armas, armaduras e mochilas repetidas ou sobressalentes diretamente pelo Baú/Arsenal nos Aposentos do Herói.
+  - O valor de avaliação do item considera suas matérias-primas e custos de forja ou raridade básica, com retorno fixado no clássico padrão de RPG: **exatamente 50% em Gold depositado na hora na carteira do atleta**.
+  - **Bônus de Aprimoramento:** itens aprimorados (+1..+5) recebem valorização extra no preço de venda proporcional ao investimento feito na Forja.
+  - **Trava de Segurança:** itens equipados no herói não podem ser vendidos acidentalmente (é necessário desequipar primeiro) e itens com gemas engastadas exigem remoção das joias antes da venda para evitar prejuízos ao jogador.
+
+---
+
 ## Novidades da Build 42
 
 - **🔨 Sistema de Upgrade de Equipamentos na Forja (+1 a +5):**
-  - Evolua armas, armaduras e equipamentos de combate na Forja do Reino até o nível +5.
-  - Cada nível de upgrade concede **+10% de bônus sobre os atributos base** (ataque, defesa e armadura).
-  - Custos escaláveis por nível utilizando **Gold, Tábuas de Madeira e Barras de Ferro**, com exigência da rara **Joia do Caos** para o lendário nível +5.
-  - Badge visual de upgrade (+1..+5) exibido nos itens na mochila e nos slots equipados.
-  - Modal interativo na Forja com prévia detalhada dos atributos futuros e conferência de materiais disponíveis na mochila.
+  - Evolua armas, armaduras e equipamentos de combate na Forja do Reino até o nível +5 (+10% por nível nos atributos base).
+  - Custos escaláveis utilizando Gold, Tábuas de Madeira e Barras de Ferro, com Joia do Caos no nível +5.
 - **🔒 Travas de Nível de Atleta para Equipar:**
-  - Equipamentos agora possuem exigência de nível mínimo do atleta (ex: Espada Enferrujada Nv 1, Elmo de Ferro Nv 4, etc.).
-  - Indicação visual imediata na mochila, na loja e nos detalhes de itens quando o nível do atleta ainda não for suficiente, impedindo equipar prematuramente.
+  - Equipamentos exigem nível mínimo do atleta (ex: Espada Enferrujada Nv 1, Elmo de Ferro Nv 4, etc.).
 
 ---
 
@@ -40,4 +46,4 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 - O aplicativo está em fase inicial de testes.
 - Se encontrar algum problema ou tiver sugestões, compartilhe pelo canal de testes.
-- Versão: **0.1.0 (build 42)**.
+- Versão: **0.1.0 (build 43)**.
