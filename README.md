@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.0, build 45](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build45/kot-v0.1.0-build45.apk)**
+**[🚀 Baixar para Android — v0.1.0, build 46](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build46/kot-v0.1.0-build46.apk)**
 
-- **Tamanho:** `120.444.361 bytes` (~114,9 MB)
-- **SHA-256:** `3c45f2a3e5ab3b1428179eb9063e0f8cf8304f71fe809cd937b81a6e81eb562d`
-- **Checksum:** [SHA256SUMS-build45.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build45/SHA256SUMS-build45.txt)
+- **Tamanho:** `120.444.277 bytes` (~114,9 MB)
+- **SHA-256:** `8cd7891d31439a23df03f036f205196e05a81e18c83a6e49aa91981e27bb2a54`
+- **Checksum:** [SHA256SUMS-build46.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build46/SHA256SUMS-build46.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -22,14 +22,23 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ---
 
+## Novidades da Build 46
+
+- **🛡️ Alinhamento da Captação de Energia com o Escudo do Reino:**
+  - Corrigido o slide de captação de energia e os tópicos do Grimório: a energia dos cristais acumulados nas passadas é canalizada para recarregar o Escudo do Reino e manter a integridade das muralhas, em vez de converter em ouro.
+- **🏷️ Padronização do Nome Oficial K.O.T (King of Territory):**
+  - Textos de boas-vindas, tutoriais e FAQ atualizados com o nome oficial K.O.T (King of Territory).
+
+---
+
 ## Novidades da Build 45
 
 - **✨ Carrossel Interativo de Boas-Vindas (`BeginnerTutorialDialog`):**
-  - Exibição automática na primeira vez que o atleta acessa a Home, apresentando os 4 pilares do jogo: o mundo real como tabuleiro com GPS/Passos em segundo plano, reinos geográficos e peregrinação de 1 km, a usina mística de cristais/ouro e os aposentos do herói com forja e arena.
+  - Exibição automática na primeira vez que o atleta acessa a Home, apresentando os 4 pilares do jogo: o mundo real como tabuleiro com GPS/Passos em segundo plano, reinos geográficos e peregrinação de 1 km, captação de energia para o escudo do reino e os aposentos do herói com forja e arena.
   - Navegação fluida com dots animados, passos ilustrados e link direto para o compêndio.
 - **📖 Grimório do Aventureiro (`AdventureGuideScreen`):**
   - Nova tela dedicada com busca em tempo real para consultar regras completas e FAQs a qualquer momento.
-  - Tópicos detalhados sobre treinos, economia mística, equipamentos, joias, poções, reinos e dúvidas gerais.
+  - Tópicos detalhados sobre treinos, defesa e muralhas, equipamentos, joias, poções, reinos e dúvidas gerais.
 - **🧭 Acesso Rápido na Interface:**
   - Novo botão de compêndio (`Icons.auto_stories_rounded`) no cabeçalho da Home ao lado do arauto de voz.
   - Card temático de acesso aos tutoriais nos Aposentos do Herói / Perfil.
