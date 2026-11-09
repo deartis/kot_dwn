@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.0, build 44](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build44/kot-v0.1.0-build44.apk)**
+**[🚀 Baixar para Android — v0.1.0, build 45](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build45/kot-v0.1.0-build45.apk)**
 
-- **Tamanho:** `120.116.025 bytes` (~114,6 MB)
-- **SHA-256:** `eb9af5a9bbf8ebbed15038e95e78c177641b5cf9220da0f2cc982bcca01f34a8`
-- **Checksum:** [SHA256SUMS-build44.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build44/SHA256SUMS-build44.txt)
+- **Tamanho:** `120.444.361 bytes` (~114,9 MB)
+- **SHA-256:** `3c45f2a3e5ab3b1428179eb9063e0f8cf8304f71fe809cd937b81a6e81eb562d`
+- **Checksum:** [SHA256SUMS-build45.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build45/SHA256SUMS-build45.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -19,6 +19,20 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da Build 45
+
+- **✨ Carrossel Interativo de Boas-Vindas (`BeginnerTutorialDialog`):**
+  - Exibição automática na primeira vez que o atleta acessa a Home, apresentando os 4 pilares do jogo: o mundo real como tabuleiro com GPS/Passos em segundo plano, reinos geográficos e peregrinação de 1 km, a usina mística de cristais/ouro e os aposentos do herói com forja e arena.
+  - Navegação fluida com dots animados, passos ilustrados e link direto para o compêndio.
+- **📖 Grimório do Aventureiro (`AdventureGuideScreen`):**
+  - Nova tela dedicada com busca em tempo real para consultar regras completas e FAQs a qualquer momento.
+  - Tópicos detalhados sobre treinos, economia mística, equipamentos, joias, poções, reinos e dúvidas gerais.
+- **🧭 Acesso Rápido na Interface:**
+  - Novo botão de compêndio (`Icons.auto_stories_rounded`) no cabeçalho da Home ao lado do arauto de voz.
+  - Card temático de acesso aos tutoriais nos Aposentos do Herói / Perfil.
 
 ---
 
