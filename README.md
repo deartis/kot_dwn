@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.0, build 46](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build46/kot-v0.1.0-build46.apk)**
+**[🚀 Baixar para Android — v0.1.0, build 47](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build47/kot-v0.1.0-build47.apk)**
 
-- **Tamanho:** `120.444.277 bytes` (~114,9 MB)
-- **SHA-256:** `8cd7891d31439a23df03f036f205196e05a81e18c83a6e49aa91981e27bb2a54`
-- **Checksum:** [SHA256SUMS-build46.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build46/SHA256SUMS-build46.txt)
+- **Tamanho:** `120.444.109 bytes` (~114,9 MB)
+- **SHA-256:** `3096fd77589a6f119246e542308273a0123321cfc1007611d516dc5c5d23a149`
+- **Checksum:** [SHA256SUMS-build47.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build47/SHA256SUMS-build47.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -19,6 +19,16 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da Build 47
+
+- **🎬 Anúncios Premiados Oficiais do Google AdMob Ativos:**
+  - Configurado o **App ID de produção** (`ca-app-pub-4260401394051559~6794130633`) no `AndroidManifest.xml`.
+  - Configurado o **Bloco de Anúncios Premiados (Rewarded Video)** oficial (`ca-app-pub-4260401394051559/4236250057`) na **Tenda do Bardo & Mercador** (`AdService` e `RewardAdScreen`).
+- **🧪 Poções de Treinamento na Loja de Poções:**
+  - Removido o card fixo da tela inicial (Home); as 3 poções de treinamento (**Elixir da Sabedoria +50% XP**, **Poção de Vigor Rápido** e **Infusão do Rastreador 2x Drops**) são adquiridas na Loja de Poções do Vilarejo com opção de comprar e beber na hora.
 
 ---
 
@@ -84,4 +94,4 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 - O aplicativo está em fase inicial de testes.
 - Se encontrar algum problema ou tiver sugestões, compartilhe pelo canal de testes.
-- Versão: **0.1.0 (build 44)**.
+- Versão: **0.1.0 (build 47)**.
