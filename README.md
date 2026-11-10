@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.0, build 47](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build47/kot-v0.1.0-build47.apk)**
+**[🚀 Baixar para Android — v0.1.0, build 48](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build48/kot-v0.1.0-build48.apk)**
 
-- **Tamanho:** `120.444.109 bytes` (~114,9 MB)
-- **SHA-256:** `3096fd77589a6f119246e542308273a0123321cfc1007611d516dc5c5d23a149`
-- **Checksum:** [SHA256SUMS-build47.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build47/SHA256SUMS-build47.txt)
+- **Tamanho:** `120.345.913 bytes` (~114,8 MB)
+- **SHA-256:** `27b6825abaddc5fb6903a7dc3bb8478a711ea2bd9d964dd3f5023cb1cf2d2f14`
+- **Checksum:** [SHA256SUMS-build48.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build48/SHA256SUMS-build48.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -19,6 +19,22 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da Build 48
+
+- **🏘️ Vilarejo Completo & Lojas Abertas:**
+  - Todas as 6 lojas do vilarejo estão abertas e operacionais por padrão em todos os reinos (Sede do Reino, Ferraria da Guarda, Marcenaria Real, Tenda do Mercador, Loja de Poções e Loja de Proteínas).
+- **💸 Taxas Amigáveis para Mobilidade Urbana:**
+  - **Reino Leal (Cidadão):** taxa comercial reduzida para apenas **5%** (95% do ouro fica com o atleta; 5% fortalece o seu próprio reino).
+  - **Fora do Reino Leal (Em Trânsito):** taxa comercial reduzida de 50% para apenas **15%** (85% para o atleta e 15% para o tesouro local).
+  - **Forja e Artesanato Liberados em Trânsito:** forje armas e armaduras e curta peles em qualquer reino, sem barreiras.
+- **📜 Nova Interface de Vilarejo em Cards:**
+  - Lista vertical temática no estilo Dark RPG com imagens das lojas à esquerda, identificação do NPC e lore no centro, e botão direto `[ Acessar ]`.
+  - Card dinâmico de status de Cidadania no topo destacando as vantagens do Reino Leal.
+- **🗣️ Lojas Imersivas com NPCs Vivos:**
+  - Tela dedicada com mestres de ofício temáticos (*Durin*, *Gunnar*, *Freya*, *Eldrin*, *Brunhild* e *Valerius*), balão de fala dinâmico com haptic feedback e abas organizadas para cada atividade comercial.
 
 ---
 

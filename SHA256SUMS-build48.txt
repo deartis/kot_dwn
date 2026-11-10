@@ -1,0 +1,2 @@
+27b6825abaddc5fb6903a7dc3bb8478a711ea2bd9d964dd3f5023cb1cf2d2f14  kot-v0.1.0-build48.apk
+27b6825abaddc5fb6903a7dc3bb8478a711ea2bd9d964dd3f5023cb1cf2d2f14  kot-latest.apk
