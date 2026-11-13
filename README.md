@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.0, build 49](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build49/kot-v0.1.0-build49.apk)**
+**[🚀 Baixar para Android — v0.1.0, build 50](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build50/kot-v0.1.0-build50.apk)**
 
-- **Tamanho:** `120.231.405 bytes` (~114,7 MB)
-- **SHA-256:** `d872ebcb306e1a904ec0009f4415ab65f671173c24589824474d8000364f176f`
-- **Checksum:** [SHA256SUMS-build49.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build49/SHA256SUMS-build49.txt)
+- **Tamanho:** `120.329.817 bytes` (~114,8 MB)
+- **SHA-256:** `03773b9feda9eea0b36bef9d4f3932a280881f2604f9978cd94494fb4f896848`
+- **Checksum:** [SHA256SUMS-build50.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build50/SHA256SUMS-build50.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -19,6 +19,14 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da Build 50
+
+- **Reino de lealdade persistente:** atletas leais agora mantêm seu reino de lealdade fixo na Home, na aba Reino, na Mochila, no Vilarejo e nos Desafios da Temporada, mesmo ao caminhar por outros territórios.
+- **Tela dedicada para Reino Visitado:** ao passar por um reino diferente do seu, o atleta leal acessa uma tela dedicada (`Reino Visitado`) com informações e ações de passagem (Arena/Mapa, Fronteira e visita ao vilarejo estrangeiro).
+- **Aviso em vilarejo estrangeiro:** ao entrar no vilarejo de outro reino, um banner explícito identifica a visita sem misturar com o seu reino de origem.
 
 ---
 
