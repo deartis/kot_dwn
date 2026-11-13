@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.0, build 48](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build48/kot-v0.1.0-build48.apk)**
+**[🚀 Baixar para Android — v0.1.0, build 49](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build49/kot-v0.1.0-build49.apk)**
 
-- **Tamanho:** `120.345.913 bytes` (~114,8 MB)
-- **SHA-256:** `27b6825abaddc5fb6903a7dc3bb8478a711ea2bd9d964dd3f5023cb1cf2d2f14`
-- **Checksum:** [SHA256SUMS-build48.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build48/SHA256SUMS-build48.txt)
+- **Tamanho:** `120.231.405 bytes` (~114,7 MB)
+- **SHA-256:** `d872ebcb306e1a904ec0009f4415ab65f671173c24589824474d8000364f176f`
+- **Checksum:** [SHA256SUMS-build49.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build49/SHA256SUMS-build49.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -19,6 +19,15 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da Build 49
+
+- **Correções de UX e estados de erro:** feedback visual e opção de tentar novamente em falhas de carregamento na Home, Perfil e Carteira, aviso persistente quando a permissão de localização é negada na Arena, e confirmação visual ao salvar perfil.
+- **Acessibilidade e layout:** fontes mínimas ajustadas para `>= 12 px`, áreas de toque padronizadas em `48 dp`, correção de overflow em diálogos/cabeçalhos e tema dark consistente na Carteira.
+- **Navegação e fontes:** barra inferior padronizada com `pushReplacement` e carregamento centralizado de fontes (`AppFonts`).
+- **Segurança na API:** cabeçalhos de segurança (`helmet`), rate limiting nas rotas de autenticação, CORS configurável, auditoria de login no painel admin e bloqueio de `NODE_ENV=test` em produção.
 
 ---
 
