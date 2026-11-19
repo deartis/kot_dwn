@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.0, build 51](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build51/kot-v0.1.0-build51.apk)**
+**[🚀 Baixar para Android — v0.1.0, build 52](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build52/kot-v0.1.0-build52.apk)**
 
 - **Tamanho:** `120.346.201 bytes` (~114,8 MB)
-- **SHA-256:** `950112a21a54e23ea4621f09734d254155d4d7f508198b4c5d8350e91bbc3fef`
-- **Checksum:** [SHA256SUMS-build51.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build51/SHA256SUMS-build51.txt)
+- **SHA-256:** `ae275d86fef3cec306d4319712bfa6d2e54948bec6171ff662d9d43a9b373dc3`
+- **Checksum:** [SHA256SUMS-build52.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build52/SHA256SUMS-build52.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -19,6 +19,12 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da Build 52
+
+- **Atalho direto para a Mochila nos Aposentos do Herói:** adicionados ícone de mochila na barra superior e botão **"Abrir Mochila & Inventário →"** no card de atributos dos Aposentos do Herói, sincronizando o loadout ao voltar.
 
 ---
 
