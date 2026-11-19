@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.0, build 50](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build50/kot-v0.1.0-build50.apk)**
+**[🚀 Baixar para Android — v0.1.0, build 51](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build51/kot-v0.1.0-build51.apk)**
 
-- **Tamanho:** `120.329.817 bytes` (~114,8 MB)
-- **SHA-256:** `03773b9feda9eea0b36bef9d4f3932a280881f2604f9978cd94494fb4f896848`
-- **Checksum:** [SHA256SUMS-build50.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build50/SHA256SUMS-build50.txt)
+- **Tamanho:** `120.346.201 bytes` (~114,8 MB)
+- **SHA-256:** `950112a21a54e23ea4621f09734d254155d4d7f508198b4c5d8350e91bbc3fef`
+- **Checksum:** [SHA256SUMS-build51.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build51/SHA256SUMS-build51.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -19,6 +19,14 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da Build 51
+
+- **Altar de Joias Raras sincronizado com a API:** corrigidos os preços exibidos nos botões de compra (**400 Gold** para Joia do Caos e **900 Gold** para Safira Arcana e Esmeralda Mística), agora enviados diretamente pela API.
+- **Barra de saldo mais clara nos Engastes:** exibidos os rótulos abaixo de cada quantidade (**Caos**, **Safira**, **Esmeralda**, **Ferro** e **Gold**), incluindo o saldo de **Ferro Refinado** necessário para perfurar engastes.
+- **Joias visíveis na Mochila / Inventário:** as joias raras possuídas agora aparecem diretamente na grade da mochila, com modal de detalhes, atalho para os Aposentos do Herói e opção de venda rápida por Gold (+20% ao reino leal).
 
 ---
 
