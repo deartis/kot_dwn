@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.0, build 52](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build52/kot-v0.1.0-build52.apk)**
+**[🚀 Baixar para Android — v0.1.1, build 53](https://github.com/deartis/kot_dwn/releases/download/v0.1.1-build53/kot-v0.1.1-build53.apk)**
 
-- **Tamanho:** `120.346.201 bytes` (~114,8 MB)
-- **SHA-256:** `ae275d86fef3cec306d4319712bfa6d2e54948bec6171ff662d9d43a9b373dc3`
-- **Checksum:** [SHA256SUMS-build52.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.0-build52/SHA256SUMS-build52.txt)
+- **Tamanho:** `120.534.809 bytes` (~115,0 MB)
+- **SHA-256:** `a86a172737c3db17a127cc8541c2bfcfe939bb7d3f51f7c0f0af7d7dde94464f`
+- **Checksum:** [SHA256SUMS-build53.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.1-build53/SHA256SUMS-build53.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -19,6 +19,13 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da v0.1.1 (Build 53)
+
+- **Atualização automática dentro do app:** nova barra persistente no topo de todas as telas avisando sempre que uma nova release oficial estiver disponível no GitHub, com visualização das novidades, download do APK com barra de progresso dentro do aplicativo e abertura direta do instalador Android.
+- **Filtro inteligente de releases:** builds internas de teste na mesma versão semântica não incomodam com avisos repetidos; o banner só aparece em releases oficiais superiores.
 
 ---
 
