@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.1, build 53](https://github.com/deartis/kot_dwn/releases/download/v0.1.1-build53/kot-v0.1.1-build53.apk)**
+**[🚀 Baixar para Android — v0.1.2, build 54](https://github.com/deartis/kot_dwn/releases/download/v0.1.2-build54/kot-v0.1.2-build54.apk)**
 
-- **Tamanho:** `120.534.809 bytes` (~115,0 MB)
-- **SHA-256:** `a86a172737c3db17a127cc8541c2bfcfe939bb7d3f51f7c0f0af7d7dde94464f`
-- **Checksum:** [SHA256SUMS-build53.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.1-build53/SHA256SUMS-build53.txt)
+- **Tamanho:** `120.616.729 bytes` (~115,0 MB)
+- **SHA-256:** `5932bb723b28cebf47aa4a71534ca24ec771af90669295295f0521cc7292896d`
+- **Checksum:** [SHA256SUMS-build54.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.2-build54/SHA256SUMS-build54.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -19,6 +19,13 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da v0.1.2 (Build 54)
+
+- **Foto do perfil sem piscar:** corrigido o bug no `PlayerAvatar` que re-decodificava fotos escolhidas da galeria (`base64`) a cada atualização de tela; agora os bytes ficam em cache com `gaplessPlayback`.
+- **Entrega real das Convocações da Coroa:** convocações individuais e Éditos Gerais emitidos pelo Soberano agora são salvos no servidor e entregues no celular dos cidadãos leais via notificação local Android e modal da Coroa dentro do app.
 
 ---
 
