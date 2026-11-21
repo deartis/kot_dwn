@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.3, build 55](https://github.com/deartis/kot_dwn/releases/download/v0.1.3-build55/kot-v0.1.3-build55.apk)**
+**[🚀 Baixar para Android — v0.1.3, build 56](https://github.com/deartis/kot_dwn/releases/download/v0.1.3-build56/kot-v0.1.3-build56.apk)**
 
-- **Tamanho:** `120.633.113 bytes` (~115,0 MB)
-- **SHA-256:** `b4f94a26242231a0e9b3483ee0e8056539be56e906ba6a3a1c5fc2d22947b1b6`
-- **Checksum:** [SHA256SUMS-build55.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.3-build55/SHA256SUMS-build55.txt)
+- **Tamanho:** `120.633.253 bytes` (~115,0 MB)
+- **SHA-256:** `f947908a755fa9da8655cf8814173c7aa8345010b3c6fe9bcee492fd0fb3e35b`
+- **Checksum:** [SHA256SUMS-build56.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.3-build56/SHA256SUMS-build56.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -19,6 +19,13 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da v0.1.3 (Build 56)
+
+- **Carregamento mais rápido na tela inicial:** otimizado o payload de perfil na API (removendo polígonos e rastros GPS completos desnecessários no resumo), aumentado o timeout de perfil para 15s e protegido o carregamento de métricas contra respostas fora de ordem — eliminando o aviso falso `"Não foi possível atualizar as métricas do servidor."` ao abrir o app.
+- **Treinos com troca de modalidade:** suporte a segmentos de corrida + caminhada na mesma sessão.
 
 ---
 
