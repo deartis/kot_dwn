@@ -6,7 +6,12 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.3, build 56](https://github.com/deartis/kot_dwn/releases/download/v0.1.3-build56/kot-v0.1.3-build56.apk)**
+**[🚀 Baixar para Android — v0.1.4, build 57](https://github.com/deartis/kot_dwn/releases/download/v0.1.4-build57/kot-v0.1.4-build57.apk)**
+
+- **Tamanho:** `118.655.182 bytes` (~113.2 MB)
+- **SHA-256:** `3a99741036fc225c2be2d7c568be8ea84847d282d68234ca3602e6348666826b`
+- **Checksum:** [SHA256SUMS-build57.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.4-build57/SHA256SUMS-build57.txt)
+- **Requisitos:** Android 7.0 ou superior.
 
 - **Tamanho:** `120.633.253 bytes` (~115,0 MB)
 - **SHA-256:** `f947908a755fa9da8655cf8814173c7aa8345010b3c6fe9bcee492fd0fb3e35b`
@@ -19,6 +24,14 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da v0.1.4 (Build 57)
+
+- **Guildas do reino:** lista somente as guildas do reino de lealdade, com busca por nome ou identificador e juramento à guilda escolhida.
+- **Sessão mais confiável:** logout local conclui mesmo quando a revogação remota falha; respostas atrasadas não restauram a conta encerrada.
+- **Marcenaria reorganizada:** abas próprias para equipamentos de madeira e couro, tábuas refinadas, curtume e expansão da mochila.
 
 ---
 
@@ -169,4 +182,4 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 - O aplicativo está em fase inicial de testes.
 - Se encontrar algum problema ou tiver sugestões, compartilhe pelo canal de testes.
-- Versão: **0.1.0 (build 47)**.
+- Versão: **0.1.4 (build 57)**.
