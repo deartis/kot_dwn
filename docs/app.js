@@ -21,31 +21,100 @@
     return { full: `v${clean}`, short: `v${clean}` };
   }
 
-  function renderReleaseNotes(container, body) {
-    if (!container || !body) return;
-    const lines = body
-      .split('\n')
-      .map((line) => line.trim())
-      .filter((line) => line.startsWith('- ') || line.startsWith('* '))
-      .slice(0, 6);
+  function appendInlineMarkdown(parent, text) {
+    const tokenRegex = /\*\*(.+?)\*\*|`([^`]+)`|\*([^*]+)\*/g;
+    let lastIndex = 0;
+    let match;
+    while ((match = tokenRegex.exec(text)) !== null) {
+      if (match.index > lastIndex) {
+        parent.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+      }
+      if (match[1] !== undefined) {
+        const strong = document.createElement('strong');
+        strong.textContent = match[1];
+        parent.appendChild(strong);
+      } else if (match[2] !== undefined) {
+        const code = document.createElement('code');
+        code.textContent = match[2];
+        parent.appendChild(code);
+      } else if (match[3] !== undefined) {
+        const em = document.createElement('em');
+        em.textContent = match[3];
+        parent.appendChild(em);
+      }
+      lastIndex = tokenRegex.lastIndex;
+    }
+    if (lastIndex < text.length) {
+      parent.appendChild(document.createTextNode(text.slice(lastIndex)));
+    }
+  }
 
-    if (lines.length === 0) return;
+  function extractReleaseItems(body) {
+    const rawLines = body.split('\n').map((line) => line.trim());
+    const metadataLine = /^\*\*(Arquivo|Tamanho|SHA-256|Checksum):?\*\*/i;
+    const bullets = [];
+    let inIntegritySection = false;
+
+    for (const line of rawLines) {
+      const headingMatch = line.match(/^#{1,4}\s+(.+)$/);
+      if (headingMatch) {
+        inIntegritySection = /^integridade/i.test(headingMatch[1].trim());
+        continue;
+      }
+      if (inIntegritySection) continue;
+      if (line.startsWith('- ') || line.startsWith('* ')) {
+        const clean = line.replace(/^[-*]\s+/, '').trim();
+        if (clean && !metadataLine.test(clean)) {
+          bullets.push(clean);
+        }
+      }
+    }
+
+    if (bullets.length > 0) {
+      return bullets.slice(0, 6);
+    }
+
+    const sections = [];
+    let currentTitle = null;
+    let currentParagraphs = [];
+    let skipSection = false;
+
+    const flushSection = () => {
+      if (!skipSection && currentParagraphs.length > 0) {
+        const text = currentParagraphs.join(' ').trim();
+        if (text) {
+          sections.push(currentTitle ? `**${currentTitle}:** ${text}` : text);
+        }
+      }
+      currentParagraphs = [];
+    };
+
+    for (const line of rawLines) {
+      const headingMatch = line.match(/^#{1,4}\s+(.+)$/);
+      if (headingMatch) {
+        flushSection();
+        const heading = headingMatch[1].trim().replace(/:$/, '');
+        skipSection = /^integridade/i.test(heading);
+        currentTitle = /^novidades\b/i.test(heading) ? null : heading;
+        continue;
+      }
+      if (!line || metadataLine.test(line)) continue;
+      currentParagraphs.push(line);
+    }
+    flushSection();
+
+    return sections.slice(0, 6);
+  }
+
+  function renderReleaseNotes(container, body) {
+    if (!container || typeof body !== 'string' || !body.trim()) return;
+    const items = extractReleaseItems(body);
+    if (items.length === 0) return;
 
     const ul = document.createElement('ul');
-    for (const rawLine of lines) {
+    for (const item of items) {
       const li = document.createElement('li');
-      const text = rawLine.replace(/^[-*]\s+/, '');
-      const boldMatch = text.match(/^\*\*(.+?)\*\*\s*(.*)$/);
-      if (boldMatch) {
-        const strong = document.createElement('strong');
-        strong.textContent = boldMatch[1];
-        li.appendChild(strong);
-        if (boldMatch[2]) {
-          li.appendChild(document.createTextNode(` ${boldMatch[2]}`));
-        }
-      } else {
-        li.textContent = text;
-      }
+      appendInlineMarkdown(li, item);
       ul.appendChild(li);
     }
 
@@ -80,6 +149,12 @@
           : `${full} • APK`;
       });
 
+      if (sizeText) {
+        document.querySelectorAll('.js-apk-size').forEach((el) => {
+          el.textContent = `~${sizeText}`;
+        });
+      }
+
       document.querySelectorAll('.js-version-short').forEach((el) => {
         el.textContent = `${short} • Android`;
       });
@@ -96,12 +171,16 @@
 
       renderReleaseNotes(document.querySelector('.js-release-notes'), release.body);
 
-      const shaMatch = typeof release.body === 'string'
-        ? release.body.match(/[a-f0-9]{64}/i)
+      const digestMatch = typeof apkAsset.digest === 'string'
+        ? apkAsset.digest.match(/^sha256:([a-f0-9]{64})$/i)
         : null;
+      const bodyShaMatch = typeof release.body === 'string'
+        ? release.body.match(/\b([a-f0-9]{64})\b/i)
+        : null;
+      const shaHex = digestMatch?.[1] || bodyShaMatch?.[1];
       const shaEl = document.querySelector('.js-sha256');
-      if (shaEl && shaMatch) {
-        shaEl.textContent = shaMatch[0].toLowerCase();
+      if (shaEl && shaHex) {
+        shaEl.textContent = shaHex.toLowerCase();
       }
     } catch {
       // Fallback estático do HTML permanece ativo em caso de offline ou rate limit
