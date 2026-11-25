@@ -1,0 +1,75 @@
+name: Sincronizar e publicar GitHub Pages
+
+on:
+  release:
+    types: [published, edited, deleted, prereleased, released]
+  push:
+    branches: [master]
+    paths:
+      - 'docs/**'
+      - 'scripts/sync-pages-release.mjs'
+      - '.github/workflows/sync-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: kot-pages-deploy
+  cancel-in-progress: false
+
+jobs:
+  sync-and-deploy:
+    if: >-
+      github.event_name != 'release' ||
+      github.event.action != 'published' ||
+      github.event.release.prerelease == false
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Sincronizar docs/index.html com a última release oficial
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/sync-pages-release.mjs
+
+      - name: Salvar atualização estática na branch master
+        run: |
+          if git diff --quiet docs/index.html; then
+            echo "Sem mudanças em docs/index.html."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/index.html
+          git commit -m "Sincroniza GitHub Pages com a última release oficial"
+          git pull --rebase origin master
+          git push origin HEAD:master
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Empacotar pasta docs para o Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Publicar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
