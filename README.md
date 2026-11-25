@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.5, build 58](https://github.com/deartis/kot_dwn/releases/download/v0.1.5-build58/kot-v0.1.5-build58.apk)**
+**[🚀 Baixar para Android — v0.1.5, build 59](https://github.com/deartis/kot_dwn/releases/download/v0.1.5-build59/kot-v0.1.5-build59.apk)**
 
-- **Tamanho:** `118.966.882 bytes` (~113,5 MB)
-- **SHA-256:** `6e44346fc021e70c118b0af4a38c118dbd88251da938af5a739eded0bd30f3db`
-- **Checksum:** [SHA256SUMS-build58.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.5-build58/SHA256SUMS-build58.txt)
+- **Tamanho:** `128.341.181 bytes` (~122,4 MB)
+- **SHA-256:** `4d146cbe07cf8ea3efe52d5d20e282f0519963ed8af5d5ec34967f92c3111412`
+- **Checksum:** [SHA256SUMS-build59.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.5-build59/SHA256SUMS-build59.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -19,6 +19,14 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da v0.1.5 (Build 59)
+
+- **🎒 Kit Iniciante Completo (6 peças por Gold):** novo pacote pronto para comprar na aba **Kit Iniciante** da **Feira do Reino** (Mercadora Freya) e no topo da **Marcenaria** (Artesão Gunnar) — leva Capuz de Couro, Colete de Couro, Luvas de Couro, Botas de Couro, Espada de Treino de Madeira e Bornal de Estopa (+2 slots) por **75 Gold**, sem precisar coletar materiais brutos.
+- **🎨 Novos ícones dedicados de Tier 1:** equipamentos iniciantes de couro, madeira e estopa agora exibem suas artes próprias no inventário, na forja e na ficha do personagem (em vez do ícone genérico de aço).
+- **🧪 Novo banner da Loja de Poções:** a oficina do **Alquimista Eldrin** ganhou arte ilustrada no padrão das demais lojas do vilarejo.
 
 ---
 
