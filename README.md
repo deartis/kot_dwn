@@ -6,16 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.4, build 57](https://github.com/deartis/kot_dwn/releases/download/v0.1.4-build57/kot-v0.1.4-build57.apk)**
+**[🚀 Baixar para Android — v0.1.5, build 58](https://github.com/deartis/kot_dwn/releases/download/v0.1.5-build58/kot-v0.1.5-build58.apk)**
 
-- **Tamanho:** `118.655.182 bytes` (~113.2 MB)
-- **SHA-256:** `3a99741036fc225c2be2d7c568be8ea84847d282d68234ca3602e6348666826b`
-- **Checksum:** [SHA256SUMS-build57.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.4-build57/SHA256SUMS-build57.txt)
-- **Requisitos:** Android 7.0 ou superior.
-
-- **Tamanho:** `120.633.253 bytes` (~115,0 MB)
-- **SHA-256:** `f947908a755fa9da8655cf8814173c7aa8345010b3c6fe9bcee492fd0fb3e35b`
-- **Checksum:** [SHA256SUMS-build56.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.3-build56/SHA256SUMS-build56.txt)
+- **Tamanho:** `118.966.882 bytes` (~113,5 MB)
+- **SHA-256:** `6e44346fc021e70c118b0af4a38c118dbd88251da938af5a739eded0bd30f3db`
+- **Checksum:** [SHA256SUMS-build58.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.5-build58/SHA256SUMS-build58.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -24,6 +19,14 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da v0.1.5 (Build 58)
+
+- **🛡️ Novo Salão das Guildas (UI Dark Fantasy):** tela totalmente redesenhada com brasão monogramático, destaque para a sua guilda atual (*Líder Fundador* ou *Membro Jurado*), cópia do `@identificador` em um toque, ordenação por popularidade ou A–Z e modal de fundação com sugestão automática do `@handle`.
+- **👥 Lista de Guerreiros Jurados & Liderança:** toque em qualquer guilda para abrir o Salão da Guilda e ver o líder fundador, a sede e todos os membros jurados (com avatar, patente, distância percorrida e nível).
+- **🧭 Acesso Rápido em Todo o App:** agora você entra no Salão das Guildas direto pela **Tela Inicial** (botão rápido e menu FAB), pelo **HUD do Castelo** (modais de Cidadãos e Lealdade), pelo **Perfil do Guerreiro** (card dedicado e selo `@handle`) e pela **Tela do Reino** (pílula *GUILDAS* no topo e card na aba *Reinado*).
 
 ---
 
@@ -182,4 +185,4 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 - O aplicativo está em fase inicial de testes.
 - Se encontrar algum problema ou tiver sugestões, compartilhe pelo canal de testes.
-- Versão: **0.1.4 (build 57)**.
+- Versão: **0.1.5 (build 58)**.
