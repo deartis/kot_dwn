@@ -1,2 +1,2 @@
-b3df5fe817236d382eca5aeb9d9680ae3e2c3afb2605598f3efb5376ef23a8ab  kot-latest.apk
-b3df5fe817236d382eca5aeb9d9680ae3e2c3afb2605598f3efb5376ef23a8ab  kot-v0.1.5-build60.apk
+0609c1c9bf3a46eeb2a10c3473d01d0516b8399ca42a318ef5eaffab4fbc8014  kot-latest.apk
+0609c1c9bf3a46eeb2a10c3473d01d0516b8399ca42a318ef5eaffab4fbc8014  kot-v0.1.6-build61.apk

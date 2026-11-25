@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.5. build 60](https://github.com/deartis/kot_dwn/releases/download/v0.1.5-build60/kot-v0.1.5-build60.apk)**
+**[🚀 Baixar para Android — v0.1.6. build 61](https://github.com/deartis/kot_dwn/releases/download/v0.1.6-build61/kot-v0.1.6-build61.apk)**
 
 - **Tamanho:** `128.341.181 bytes` (~122,4 MB)
-- **SHA-256:** `b3df5fe817236d382eca5aeb9d9680ae3e2c3afb2605598f3efb5376ef23a8ab`
-- **Checksum:** [SHA256SUMS-build60.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.5-build60/SHA256SUMS-build60.txt)
+- **SHA-256:** `0609c1c9bf3a46eeb2a10c3473d01d0516b8399ca42a318ef5eaffab4fbc8014`
+- **Checksum:** [SHA256SUMS-build61.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.6-build61/SHA256SUMS-build61.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -19,6 +19,12 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da v0.1.6 (Build 61)
+
+- **Patrulha da Guilda:** acompanhe o progresso da meta semanal de 30 km e veja quanto cada membro contribuiu no Salão das Guildas.
 
 ---
 
