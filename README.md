@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.6, build 62](https://github.com/deartis/kot_dwn/releases/download/v0.1.6-build62/kot-v0.1.6-build62.apk)**
+**[🚀 Baixar para Android — v0.1.7, build 63](https://github.com/deartis/kot_dwn/releases/download/v0.1.7-build63/kot-v0.1.7-build63.apk)**
 
-- **Tamanho:** `128.423.101 bytes`
-- **SHA-256:** `be3dc33663bbde55d96ae5449962a07196cf2e847e730cd9ef7ac75024839bb9`
-- **Checksum:** [SHA256SUMS-build62.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.6-build62/SHA256SUMS-build62.txt)
+- **Tamanho:** `131.916.099 bytes` (~125,8 MB)
+- **SHA-256:** `e7ccdcb226c6a773b154a060f850bf31e2355c56bae4b1bc8ed9a547fcb70893`
+- **Checksum:** [SHA256SUMS-build63.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.7-build63/SHA256SUMS-build63.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -19,6 +19,14 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da v0.1.7 (Build 63)
+
+- **⚔️ Card de Compartilhamento Renovado (9:16 + Convite Oficial):** texto automático de compartilhamento restaurado com o resumo da jornada e o link oficial de download (`https://deartis.github.io/kot_dwn/`), além de selo do site direto na arte do card e área segura inferior ajustada para o Status/Stories não sobrepor informações.
+- **📊 Mais Métricas e Insígnias na Vitória:** exibição de modalidade (*Corrida*, *Caminhada*, *Ciclismo* ou *Jornada Mista*), velocidade média (`km/h`), frequência cardíaca média (`bpm`), cargo, mundo/município, guilda, dias seguidos e suporte completo à **Pele Animal Bruta**.
+- **🏡 Guia Elara no Vilarejo (Living World V1):** nova anfitriã interativa no vilarejo do reino com retrato animado e orientações contextuais sobre as oficinas e o comércio local.
 
 ---
 
