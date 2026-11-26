@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.6. build 61](https://github.com/deartis/kot_dwn/releases/download/v0.1.6-build61/kot-v0.1.6-build61.apk)**
+**[🚀 Baixar para Android — v0.1.6, build 62](https://github.com/deartis/kot_dwn/releases/download/v0.1.6-build62/kot-v0.1.6-build62.apk)**
 
-- **Tamanho:** `128.341.181 bytes` (~122,4 MB)
-- **SHA-256:** `0609c1c9bf3a46eeb2a10c3473d01d0516b8399ca42a318ef5eaffab4fbc8014`
-- **Checksum:** [SHA256SUMS-build61.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.6-build61/SHA256SUMS-build61.txt)
+- **Tamanho:** `128.423.101 bytes`
+- **SHA-256:** `be3dc33663bbde55d96ae5449962a07196cf2e847e730cd9ef7ac75024839bb9`
+- **Checksum:** [SHA256SUMS-build62.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.6-build62/SHA256SUMS-build62.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -19,6 +19,13 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da v0.1.6 (Build 62)
+
+- Card de treino em formato 9:16, com espaço para o cabeçalho e a barra de resposta do Status.
+- Distância, tempo, ritmo e XP em destaque, com nomes de materiais completos e sem legenda automática.
 
 ---
 
