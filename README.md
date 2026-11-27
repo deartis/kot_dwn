@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.8, build 64](https://github.com/deartis/kot_dwn/releases/download/v0.1.8-build64/kot-v0.1.8-build64.apk)**
+**[🚀 Baixar para Android — v0.1.9, build 65](https://github.com/deartis/kot_dwn/releases/download/v0.1.9-build65/kot-v0.1.9-build65.apk)**
 
 - **Tamanho:** `131.915.879 bytes` (~125,8 MB)
-- **SHA-256:** `20a686dfe07c54ed39279f998451532e96a2045b16bae47aaa7a77795303c56d`
-- **Checksum:** [SHA256SUMS-build64.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.8-build64/SHA256SUMS-build64.txt)
+- **SHA-256:** `0d189420b83cab5097eece6f7e5b17968d0c6022fd5cd062b06c3f68162c1809`
+- **Checksum:** [SHA256SUMS-build65.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.9-build65/SHA256SUMS-build65.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -19,6 +19,14 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da v0.1.9 (Build 65)
+
+- Os vídeos premiados da Tenda do Bardo creditam o prêmio na carteira ou na mochila após confirmação do AdMob.
+- A tela mostra as chances de cada prêmio e o limite de cinco recompensas por dia.
+- A exibição dos vídeos depende da disponibilidade de anúncios no AdMob.
 
 ---
 
