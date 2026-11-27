@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.9, build 65](https://github.com/deartis/kot_dwn/releases/download/v0.1.9-build65/kot-v0.1.9-build65.apk)**
+**[🚀 Baixar para Android — v0.1.10, build 67](https://github.com/deartis/kot_dwn/releases/download/v0.1.10-build67/kot-v0.1.10-build67.apk)**
 
 - **Tamanho:** `131.915.879 bytes` (~125,8 MB)
-- **SHA-256:** `0d189420b83cab5097eece6f7e5b17968d0c6022fd5cd062b06c3f68162c1809`
-- **Checksum:** [SHA256SUMS-build65.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.9-build65/SHA256SUMS-build65.txt)
+- **SHA-256:** `1c58a1846cf0efd23ec7ad9917db7dd8614e936c9e962057a847c7eaddf22fd1`
+- **Checksum:** [SHA256SUMS-build67.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.10-build67/SHA256SUMS-build67.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -19,6 +19,13 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da v0.1.10 (Build 67)
+
+- A Elara aparece no resumo da caminhada ou corrida quando há recursos da atividade confirmados e disponíveis para venda.
+- O botão Ver no Mercado abre diretamente a aba de venda. Agora não fecha só a dica e mantém o resumo aberto.
 
 ---
 
