@@ -6,11 +6,11 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 
 ## Baixar e instalar
 
-**[🚀 Baixar para Android — v0.1.7, build 63](https://github.com/deartis/kot_dwn/releases/download/v0.1.7-build63/kot-v0.1.7-build63.apk)**
+**[🚀 Baixar para Android — v0.1.8, build 64](https://github.com/deartis/kot_dwn/releases/download/v0.1.8-build64/kot-v0.1.8-build64.apk)**
 
-- **Tamanho:** `131.916.099 bytes` (~125,8 MB)
-- **SHA-256:** `e7ccdcb226c6a773b154a060f850bf31e2355c56bae4b1bc8ed9a547fcb70893`
-- **Checksum:** [SHA256SUMS-build63.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.7-build63/SHA256SUMS-build63.txt)
+- **Tamanho:** `131.915.879 bytes` (~125,8 MB)
+- **SHA-256:** `20a686dfe07c54ed39279f998451532e96a2045b16bae47aaa7a77795303c56d`
+- **Checksum:** [SHA256SUMS-build64.txt](https://github.com/deartis/kot_dwn/releases/download/v0.1.8-build64/SHA256SUMS-build64.txt)
 - **Requisitos:** Android 7.0 ou superior.
 
 ### Como instalar ou atualizar
@@ -19,6 +19,13 @@ Um app que transforma caminhadas e corridas em uma aventura de evolução de per
 2. Abra o arquivo baixado. Se o Android solicitar, permita que o navegador instale o aplicativo.
 3. Conclua a instalação e abra o app.
 4. *Já possui uma versão anterior instalada?* Basta baixar o APK e instalar por cima para atualizar com todos os seus dados preservados.
+
+---
+
+## Novidades da v0.1.8 (Build 64)
+
+- **⚔️ Novo Card de Vitória Estilo RPG (Mais Amplo e Legível):** visual ampliado na tela do Status/Stories com retrato do herói, escudo de Nível (com projeção de *Level Up*), barra de progresso de XP e destaque ao **Reino de Lealdade** (sem exibir `"Mundo Desconhecido"`).
+- **🔥 Estimativa de Calorias & Legenda Direta com Link:** inclusão de calorias gastas (`kcal`) no painel principal e legenda enxuta em 2 linhas para o link oficial (`https://deartis.github.io/kot_dwn/`) aparecer inteiro e clicável sem corte de *"Ver mais"*.
 
 ---
 
